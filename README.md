@@ -6,12 +6,12 @@ An elevator simulation UI.
 
 1. Download the whole repo. Go into the directory. Install the node module dependencies.
 
-'''shell
+```shell
 npm install
-'''
+```
 
 2. Start the server
-'''shell
+```shell
 ng serve
-'''
+```
 3. Open localhost:4200 in browser

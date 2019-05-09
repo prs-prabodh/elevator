@@ -1,0 +1,32 @@
+mat-card{
+    width: 49%;
+    height: 100%;
+    padding: 0;
+    border-radius: 0%;
+    text-align: center;
+}
+.req{
+    border: 2px solid black;
+}
+.stat{
+    border: 2px solid black;
+    min-width: 700px;
+}
+.div{
+    margin:0;
+}
+.floor{
+    margin: 5px;
+}
+#currentFloorId{
+    font-size: 5em;
+}
+#currentDirnId{
+    font-size: 5em;
+}
+#floor, #dirn{
+    display: none;
+}
+div{
+    padding: 60px;
+}

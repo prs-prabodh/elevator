@@ -1,0 +1,37 @@
+<div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="50px">
+  <mat-card class='req'>
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <mat-card>
+        <input type='text' id='dirn'/>
+        <mat-card-title>You want to go : </mat-card-title>
+        <button class='floor' id='up' (click)='control($event)' *ngIf='!travelling'>UP</button><br/>
+        <button class='floor' id='down' (click)='control($event)' *ngIf='!travelling'>DOWN</button><br/>
+        <button class='floor' id='go' (click)='control($event)'>GO</button>
+      </mat-card>
+      <mat-card>
+        <input type='text' id='floor'/>
+        <mat-card-title>You are on floor number : </mat-card-title>
+        <button class='floor' id='1' (click)='control($event)'>1</button>
+        <button class='floor' id='2' (click)='control($event)'>2</button>
+        <button class='floor' id='3' (click)='control($event)'>3</button><br/>
+        <button class='floor' id='4' (click)='control($event)'>4</button>
+        <button class='floor' id='5' (click)='control($event)'>5</button>
+        <button class='floor' id='6' (click)='control($event)'>6</button><br/>
+        <button class='floor' id='7' (click)='control($event)'>7</button>
+        <button class='floor' id='8' (click)='control($event)'>8</button>
+        <button class='floor' id='9' (click)='control($event)'>9</button><br/>
+        <button class='floor' id='10' (click)='control($event)'>10</button>
+      </mat-card>
+    </div>
+  </mat-card> 
+  <mat-card class='stat'>
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <mat-card class='currentFloorCard'>
+        <p type='text' id='currentFloorId'>1</p>
+      </mat-card>
+      <mat-card class='currentDirnCard'>
+        <p type='text' id='currentDirnId'>DOWN</p>
+      </mat-card>
+    </div>
+  </mat-card>
+</div>
